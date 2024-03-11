@@ -1,4 +1,5 @@
 import Helloworld from './Helloworld'
+import Counter from './Components/Counter'
 
 function App() {
 
@@ -8,6 +9,8 @@ const language = 'React JS'
     <> 
     <h1>This is {language}</h1>
     <Helloworld/>
+    <Counter/>
+    
   </>
   );
 }
