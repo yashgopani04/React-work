@@ -1,0 +1,22 @@
+.heading-container {
+    text-align: center;
+    margin-top: 90px;
+    padding: 20px;
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+  }
+  
+  .heading-container h1 {
+    font-size: 2.5rem; /* Font size of the heading */
+    font-weight: bold;
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing for a stylish look */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  /* Hover effect for heading */
+  .heading-container:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    transition: background-color 0.3s ease;
+  }
+  

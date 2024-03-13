@@ -1,0 +1,23 @@
+.elegant-navbar {
+    background-color: #37beda; /* Navbar background color */
+    color: #b6d612; /* Text color */
+  }
+  
+  .elegant-navbar .navbar-brand {
+    font-size: 1.5rem; /* Brand name font size */
+    font-weight: bold; /* Brand name font weight */
+  }
+  
+  .elegant-navbar .nav-link {
+    color :darkslategrey !important; /* Link text color */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .elegant-navbar .nav-link:hover {
+    color: #ed0909 !important; /* Link text color on hover */
+  }
+  
+  .elegant-navbar .navbar-toggler-icon {
+    background-color: #fff; /* Navbar toggle icon color */
+  }
+  
