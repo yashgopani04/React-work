@@ -1,0 +1,52 @@
+.todo-item {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.todo-item.completed {
+    background-color: #c6e9a7; /* Light green background for completed todo */
+}
+
+.todo-checkbox {
+    margin-right: 8px;
+}
+
+.todo-text {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.todo-text.editable {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 4px 8px;
+}
+
+.todo-button {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-left: 4px;
+}
+
+.todo-button:hover {
+    background-color: #e0e0e0;
+}
+
+.edit-button {
+    background-color: #f0f0f0;
+}
+
+.delete-button {
+    background-color: #f0f0f0;
+}
