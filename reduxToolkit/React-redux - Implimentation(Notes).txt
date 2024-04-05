@@ -1,0 +1,34 @@
+React-redux - Implimentation 
+Redux - core library
+
+Step 1 - Create a Store(uasally one store for each app)-Single source of truth
+
+configureStore from redux-toolkit
+
+introduce (reducers) by creating this, creata a features, and create a Slice from redux-toolkit
+
+by creating a Slice,you need 3 things
+
+1. CreateSlice
+2. initialState
+3. list of resucers
+
+reducer is an object : {
+
+	addTodo : (state, action) // state - updated state value in the store
+				  // action - action.payload
+
+
+}
+
+
+and after that, export all your resucers individually note that every reducers must be export
+
+and alos the main source of your reducers
+
+
+and in your components, you just think about that, dispatch and select by usinhg useDispatch and useSelector from 'react-redux'
+
+useDispatch()
+
+useSelctor(state => state.todo) like you have access for callback and select wherever you want
